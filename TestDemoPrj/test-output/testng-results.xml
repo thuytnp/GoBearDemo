@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88573" started-at="2019-09-14T20:59:54 ICT" finished-at="2019-09-14T21:01:22 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88573" started-at="2019-09-14T20:59:54 ICT" finished-at="2019-09-14T21:01:22 ICT">
+      <class name="demo.DemoHappyCaseTest">
+        <test-method status="PASS" signature="prepareTest()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="prepareTest" is-config="true" duration-ms="5725" started-at="2019-09-14T20:59:54 ICT" finished-at="2019-09-14T20:59:59 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method status="PASS" signature="testGoBearHappyCase()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="testGoBearHappyCase" duration-ms="78642" started-at="2019-09-14T20:59:59 ICT" finished-at="2019-09-14T21:01:18 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoBearHappyCase -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="finishTest" is-config="true" duration-ms="4163" started-at="2019-09-14T21:01:18 ICT" finished-at="2019-09-14T21:01:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- demo.DemoHappyCaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
