@@ -3,21 +3,25 @@ A. Require the softwares:
 	2. Chrome browser version: 77.0.3865.75
 	3. Chrome driver version: 77.0.3865.40
 	4. OS: window 10
-	5. Java version: '1.8.0_181'
+	5. Java version: '1.8.0_181' or later
 	6. IDE: eclipse
 	7. TestNG
 
 B. Prepare environment:
-	1. Open eclipse IDE
-	2. Install TestNG in eclipse (if TestNG doesn't already exist) before importing "TestDemoProj" project.
-		Link to guide for installing testNG: https://www.seleniumeasy.com/testng-tutorials/how-to-install-testng-step-by-step
-	3. Download TestDemoProj from Github link: https://github.com/thuytnp/GoBearDemo
-	4. Import the project into eclipse and wait to build libs successfully
+	1. Download TestDemoProj from Github link: https://github.com/thuytnp/GoBearDemo
+	2. Open eclipse IDE
+	3. Import the project into eclipse
+	4. Install TestNG in eclipse (if TestNG doesn't already exist)
+		+ Link to guide for installing testNG: https://www.seleniumeasy.com/testng-tutorials/how-to-install-testng-step-by-step
+		+ Right click on TestDemoProj -> select Build Path -> Add Libraries... -> select TestNG to add into the project
+	5. Right click on TestDemoProj -> select Build Path -> Configure Build Path... -> select Add external JARs button on right 
+								   -> go to libs folder in TestDemoProj -> select all of jar files in libs and click Open button to add them into project.
+	6. Wait to build libs successfully
 	5. Create folder name "recordVideo" in D disk drive to save record video file: D:\recordVideo
 		Note: You could change the path of record video file by changing value of RECORD_VIDEO_FILE_PATH variable at 39 line in DemoHappyCaseTest.java 
 
 C. How to run the project:
-	1. Option 1: Right click on testng.xml file  -> select Run As -> select TestNG Suite
+	1. Option 1: Right click on testng.xml file in TestDemoProj  -> select Run As -> select TestNG Suite
 	2. Option 2: Open DemoHappyCaseTest.java file in eclipse, right click  -> select Run As -> select TestNG Test
 	3. After running successfully, Chrome browser will automate the test case.
 
