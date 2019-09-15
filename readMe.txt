@@ -17,7 +17,7 @@ B. Prepare environment:
 	5. Right click on TestDemoProj -> select Build Path -> Configure Build Path... -> select Add external JARs button on right 
 								   -> go to libs folder in TestDemoProj -> select all of jar files in libs and click Open button to add them into project.
 	6. Wait to build libs successfully
-	5. Create folder name "recordVideo" in D disk drive to save record video file: D:\recordVideo
+	7. Create folder name "recordVideo" in D disk drive to save record video file: D:\recordVideo
 		Note: You could change the path of record video file by changing value of RECORD_VIDEO_FILE_PATH variable at 39 line in DemoHappyCaseTest.java 
 
 C. How to run the project:
