@@ -1,0 +1,26 @@
+2019-09-15 20:31:59  [demo.DemoHappyCaseTest] (main:) -----------Start Test----------------.
+2019-09-15 20:32:05  [demo.DemoHappyCaseTest] (main:) Start record video.
+2019-09-15 20:32:05  [demo.DemoHappyCaseTest] (main:) Click on Insurance tab.
+2019-09-15 20:32:07  [demo.DemoHappyCaseTest] (main:) Click on Travel tab.
+2019-09-15 20:32:12  [demo.DemoHappyCaseTest] (main:) Change value of travel plan dropdown.
+2019-09-15 20:32:16  [demo.DemoHappyCaseTest] (main:) Change value of destination dropdown.
+2019-09-15 20:32:33  [demo.DemoHappyCaseTest] (main:) Select date from and date to.
+2019-09-15 20:32:36  [demo.DemoHappyCaseTest] (main:) Capture screen shot of travel page.
+2019-09-15 20:32:36  [demo.DemoHappyCaseTest] (main:) Click on Show Result button.
+2019-09-15 20:32:38  [demo.DemoHappyCaseTest] (main:) List Card is sorted by promotion: 23
+2019-09-15 20:32:41  [demo.DemoHappyCaseTest] (main:) Click on FPGInsurance checkbox.
+2019-09-15 20:32:43  [demo.DemoHappyCaseTest] (main:) Click on Pacific Cross checkbox.
+2019-09-15 20:32:45  [demo.DemoHappyCaseTest] (main:) Capture screen shot after selecting checkbox in filter.
+2019-09-15 20:32:45  [demo.DemoHappyCaseTest] (main:) List Cards are filtered by Pacific Cross: 9
+2019-09-15 20:32:48  [demo.DemoHappyCaseTest] (main:) Click on Price: High to low radio button.
+2019-09-15 20:32:50  [demo.DemoHappyCaseTest] (main:) Capture screen shot after checking radio in sort.
+2019-09-15 20:32:50  [demo.DemoHappyCaseTest] (main:) List Cards are sorted by price from high to low: 9
+2019-09-15 20:32:53  [demo.DemoHappyCaseTest] (main:) Click on SEE MORE link.
+2019-09-15 20:32:57  [demo.DemoHappyCaseTest] (main:) Change value of destination dropdown.
+2019-09-15 20:33:00  [demo.DemoHappyCaseTest] (main:) Capture screen shot after selecting dropdown in detail.
+2019-09-15 20:33:15  [demo.DemoHappyCaseTest] (main:) Change value of start date and end date.
+2019-09-15 20:33:21  [demo.DemoHappyCaseTest] (main:) Change value of slider range.
+2019-09-15 20:33:21  [demo.DemoHappyCaseTest] (main:) List Cards after all changes: 27
+2019-09-15 20:33:21  [demo.DemoHappyCaseTest] (main:) Capture screen shot of result page.
+2019-09-15 20:33:23  [demo.DemoHappyCaseTest] (main:) Record video successfully.
+2019-09-15 20:33:23  [demo.DemoHappyCaseTest] (main:) End Test.
