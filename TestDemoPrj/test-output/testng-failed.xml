@@ -5,9 +5,9 @@
     <classes>
       <class name="demo.DemoHappyCaseTest">
         <methods>
-          <include name="initWebDriver"/>
-          <include name="afterTest"/>
           <include name="testGoBearHappyCase"/>
+          <include name="prepareTest"/>
+          <include name="finishTest"/>
         </methods>
       </class> <!-- demo.DemoHappyCaseTest -->
     </classes>

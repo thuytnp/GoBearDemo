@@ -19,7 +19,8 @@ B. Prepare environment:
 	6. Wait to build libs successfully
 	7. Create folder name "recordVideo" in D disk drive to save record video file: D:\recordVideo
 		Note: You could change the path of record video file by changing value of RECORD_VIDEO_FILE_PATH variable at 39 line in DemoHappyCaseTest.java 
-
+			  Test cannot run if this folder is not created.
+			  
 C. How to run the project:
 	1. Option 1: Right click on testng.xml file in TestDemoProj  -> select Run As -> select TestNG Suite
 	2. Option 2: Open DemoHappyCaseTest.java file in eclipse, right click  -> select Run As -> select TestNG Test

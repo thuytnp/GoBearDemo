@@ -49,7 +49,7 @@ public class DemoHappyCaseTest {
 	@BeforeTest
 	public void prepareTest() {
 		DOMConfigurator.configure(LOG_FILE_NAME);
-		logger.info("Start Test.");
+		logger.info("-----------Start Test----------------.");
 		System.out.println("Test case is started.");
 		System.setProperty(CHROME_DRIVER, PROPERTY_FILE_CHROME);
 		driver = new ChromeDriver();
@@ -57,10 +57,11 @@ public class DemoHappyCaseTest {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		try {
+			logger.info("Start record video.");
 			initRecordVideo();
-			// Start capturing the Video
 			recorder.start();
 		} catch (ATUTestRecorderException e) {
+			logger.error(e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -307,16 +308,22 @@ public class DemoHappyCaseTest {
 		}
 	}
 
-	private void initRecordVideo() throws ATUTestRecorderException {
+	private void initRecordVideo(){
 		DateFormat dateFormat = new SimpleDateFormat("yy-MM-dd HH-mm-ss");
 		Date date = new Date();
-		recorder = new ATUTestRecorder(RECORD_VIDEO_FILE_PATH, "TestVideo-" + dateFormat.format(date), false);
+		try {
+			recorder = new ATUTestRecorder(RECORD_VIDEO_FILE_PATH, "TestVideo-" + dateFormat.format(date), false);
+		} catch (ATUTestRecorderException e) {
+			logger.error("Record video is failed.");
+			e.printStackTrace();
+		}
 	}
 
 	@AfterTest
 	public void finishTest() {
 		try {
 			recorder.stop();
+			logger.info("Record video successfully.");
 		} catch (ATUTestRecorderException e) {
 			e.printStackTrace();
 		}

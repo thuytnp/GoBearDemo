@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88573" started-at="2019-09-14T20:59:54 ICT" finished-at="2019-09-14T21:01:22 ICT">
+  <suite name="Default suite" duration-ms="85556" started-at="2019-09-15T16:37:48 ICT" finished-at="2019-09-15T16:39:13 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88573" started-at="2019-09-14T20:59:54 ICT" finished-at="2019-09-14T21:01:22 ICT">
+    <test name="Default test" duration-ms="85556" started-at="2019-09-15T16:37:48 ICT" finished-at="2019-09-15T16:39:13 ICT">
       <class name="demo.DemoHappyCaseTest">
-        <test-method status="PASS" signature="prepareTest()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="prepareTest" is-config="true" duration-ms="5725" started-at="2019-09-14T20:59:54 ICT" finished-at="2019-09-14T20:59:59 ICT">
+        <test-method status="PASS" signature="prepareTest()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="prepareTest" is-config="true" duration-ms="5360" started-at="2019-09-15T16:37:48 ICT" finished-at="2019-09-15T16:37:53 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareTest -->
-        <test-method status="PASS" signature="testGoBearHappyCase()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="testGoBearHappyCase" duration-ms="78642" started-at="2019-09-14T20:59:59 ICT" finished-at="2019-09-14T21:01:18 ICT">
+        <test-method status="PASS" signature="testGoBearHappyCase()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="testGoBearHappyCase" duration-ms="76004" started-at="2019-09-15T16:37:53 ICT" finished-at="2019-09-15T16:39:09 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoBearHappyCase -->
-        <test-method status="PASS" signature="finishTest()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="finishTest" is-config="true" duration-ms="4163" started-at="2019-09-14T21:01:18 ICT" finished-at="2019-09-14T21:01:22 ICT">
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:demo.DemoHappyCaseTest@79be0360]" name="finishTest" is-config="true" duration-ms="4151" started-at="2019-09-15T16:39:09 ICT" finished-at="2019-09-15T16:39:13 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishTest -->
